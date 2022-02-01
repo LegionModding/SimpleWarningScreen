@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All rights reserved"
+[[mods]]
+    modId="simplewarningscreen"
+    version="${file.jarVersion}"
+    displayName="Simple Warning Screen"
+    credits="LegionModding"
+    authors="Made with <3 by LegionModding"
+    description='''A simple mod which adds a configurable warning screen on client startup. Useful for packs that they themselves or the mods in them are in early access/alpha!'''
+[[dependencies.simplewarningscreen]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.23,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.simplewarningscreen]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
