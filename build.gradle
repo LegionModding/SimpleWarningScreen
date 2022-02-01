@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = 'forge-0.0.2'
+version = 'forge-0.0.4'
 group = 'com.legionmodding.simplewarningscreen'
 archivesBaseName = 'SimpleWarningScreen'
 
