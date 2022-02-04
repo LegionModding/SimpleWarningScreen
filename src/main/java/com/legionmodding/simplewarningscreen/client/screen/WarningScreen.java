@@ -22,11 +22,11 @@ public class WarningScreen extends Screen
     private final Screen lastScreen;
     private int ticksUntilEnable = 20 * 3;
     private IBidiRenderer field_243276_q = IBidiRenderer.EMPTY;
-    private static final ITextComponent message = new TranslationTextComponent(SimpleWarningScreen.ID + ".gui.optifine.message");
+    private static final ITextComponent message = new TranslationTextComponent(SimpleWarningScreen.ID + ".gui.message");
 
     public WarningScreen(Screen screen)
     {
-        super(new TranslationTextComponent(SimpleWarningScreen.ID + ".gui.optifine.title"));
+        super(new TranslationTextComponent(SimpleWarningScreen.ID + ".gui.title"));
         this.lastScreen = screen;
     }
 
